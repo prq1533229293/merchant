@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>DEMO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="vue-app">
+        <div >
+            <img id="bag" v-bind:src="src"><br>
+            <div id="HP">
+                <div v-bind:style="{ width: HP + '%' }">{{ HP }}%</div>
+            </div>
+            <button  v-on:click="attack(10)">攻击</button>
+            <button v-on:click="reset()">重置</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

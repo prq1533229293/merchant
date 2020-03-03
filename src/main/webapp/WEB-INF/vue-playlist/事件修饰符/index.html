@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<title>Vue.js</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+	<!-- vue-app 是根容器 -->
+	<div id="vue-app">
+
+		<!-- 绑定阻止事件修饰符，不再重载页面 -->
+		<a v-on:click.prevent="alert()" href="https://www.baidu.com">百度</a><br>
+
+		<p>
+			<!-- 绑定单击事件 -->
+			<button v-on:click="add(1)">涨一岁</button>
+			<button v-on:click="substract(1)">减一岁</button>
+		</p>
+		<p>
+			<!-- 绑定双击事件 -->
+			<button v-on:dblclick="add(10)">涨十岁</button>
+			<button v-on:dblclick="substract(10)">减十岁</button>
+		</p>
+		<p>{{ name }}今年{{ age }}岁</p>
+
+		<!-- 绑定鼠标移动事件 -->
+		<div id="canvas" v-on:mousemove="updateXY">
+			{{ x }} , {{ y }}
+
+			<!-- 绑定停止事件 -->
+			<span v-on:mousemove="StopMoving">Stop Moving</span>
+			<!-- 绑定停止事件修饰符 -->
+			<span v-on:mousemove.stop>Stop Moving</span>
+		</div>
+	</div>
+</body>
+<script src="app.js"></script>
+</html>

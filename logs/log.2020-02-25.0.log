@@ -1,0 +1,586 @@
+2020-02-25 10:28:39,965 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :50   : Starting MerchantApplication on DESKTOP-43PHJIE with PID 1540 (started by 15332 in D:\Java\IntelliJ IDEA-worksoace\merchant)
+2020-02-25 10:28:39,971 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :675  : No active profile set, falling back to default profiles: default
+2020-02-25 10:28:40,008 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-25 10:28:40,008 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-25 10:28:40,452 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:244  : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 10:28:40,453 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:126  : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-25 10:28:40,473 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:182  : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2020-02-25 10:28:40,679 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f1270f25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 10:28:41,052 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90   : Tomcat initialized with port(s): 8080 (http)
+2020-02-25 10:28:41,062 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 10:28:41,068 INFO  [restartedMain] org.apache.catalina.core.StandardService          :173  : Starting service [Tomcat]
+2020-02-25 10:28:41,069 INFO  [restartedMain] org.apache.catalina.core.StandardEngine           :173  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-02-25 10:28:41,073 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-25 10:28:41,074 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-25 10:28:41,074 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-25 10:28:41,085 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-25 10:28:41,264 INFO  [restartedMain] org.apache.jasper.servlet.TldScanner              :173  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-02-25 10:28:41,268 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring embedded WebApplicationContext
+2020-02-25 10:28:41,269 INFO  [restartedMain] org.springframework.web.context.ContextLoader     :296  : Root WebApplicationContext: initialization completed in 1260 ms
+2020-02-25 10:28:41,902 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 10:28:41,966 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61   : Adding welcome page template: index
+2020-02-25 10:28:42,217 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57   : LiveReload server is running on port 35729
+2020-02-25 10:28:42,238 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 10:28:42,245 INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool        :173  : Using a shared selector for servlet write/read
+2020-02-25 10:28:42,258 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-25 10:28:42,261 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :59   : Started MerchantApplication in 2.593 seconds (JVM running for 3.314)
+2020-02-25 10:30:22,290 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 10:30:22,291 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :524  : Initializing Servlet 'dispatcherServlet'
+2020-02-25 10:30:22,297 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :546  : Completed initialization in 6 ms
+2020-02-25 10:30:22,356 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :110  : HikariPool-1 - Starting...
+2020-02-25 10:30:22,442 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :123  : HikariPool-1 - Start completed.
+2020-02-25 10:30:22,471 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-02-25 10:30:22,484 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-02-25 10:30:22,500 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant ORDER BY id DESC LIMIT ?,? 
+2020-02-25 10:30:22,501 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-02-25 10:30:22,509 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 10:30:23,022 WARN  [http-nio-8080-exec-1] org.apache.catalina.util.SessionIdGeneratorBase   :173  : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [123] milliseconds.
+2020-02-25 10:30:23,215 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 10:30:23,215 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 10:44:18,609 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :50   : Starting MerchantApplication on DESKTOP-43PHJIE with PID 12452 (started by 15332 in D:\Java\IntelliJ IDEA-worksoace\merchant)
+2020-02-25 10:44:18,609 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :675  : No active profile set, falling back to default profiles: default
+2020-02-25 10:44:18,656 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-25 10:44:18,656 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-25 10:44:19,109 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:244  : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 10:44:19,109 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:126  : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-25 10:44:19,140 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:182  : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2020-02-25 10:44:19,343 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$94f85858] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 10:44:21,233 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90   : Tomcat initialized with port(s): 8080 (http)
+2020-02-25 10:44:21,233 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 10:44:21,249 INFO  [restartedMain] org.apache.catalina.core.StandardService          :173  : Starting service [Tomcat]
+2020-02-25 10:44:21,249 INFO  [restartedMain] org.apache.catalina.core.StandardEngine           :173  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-02-25 10:44:21,249 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-25 10:44:21,249 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-25 10:44:21,249 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-25 10:44:21,264 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-25 10:44:21,436 INFO  [restartedMain] org.apache.jasper.servlet.TldScanner              :173  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-02-25 10:44:21,452 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring embedded WebApplicationContext
+2020-02-25 10:44:21,452 INFO  [restartedMain] org.springframework.web.context.ContextLoader     :296  : Root WebApplicationContext: initialization completed in 2796 ms
+2020-02-25 10:44:22,108 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 10:44:22,170 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61   : Adding welcome page template: index
+2020-02-25 10:44:22,420 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57   : LiveReload server is running on port 35729
+2020-02-25 10:44:22,452 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 10:44:22,467 INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool        :173  : Using a shared selector for servlet write/read
+2020-02-25 10:44:22,483 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-25 10:44:22,483 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :59   : Started MerchantApplication in 4.171 seconds (JVM running for 4.91)
+2020-02-25 10:44:42,361 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 10:44:42,363 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :524  : Initializing Servlet 'dispatcherServlet'
+2020-02-25 10:44:42,368 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :546  : Completed initialization in 5 ms
+2020-02-25 10:44:42,434 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :110  : HikariPool-1 - Starting...
+2020-02-25 10:44:43,504 ERROR [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool                 :574  : HikariPool-1 - Exception during pool initialization.
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.prepareStatement(MybatisSimpleExecutor.java:91)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:66)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:155)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy61.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForIPage(MybatisMapperMethod.java:134)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:96)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:96)
+	at com.sun.proxy.$Proxy66.selectPage(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy68.selectPage(Unknown Source)
+	at com.kezilai.merchant.controller.MerchantController.login(MerchantController.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-02-25 10:44:43,512 ERROR [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:175  : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+### The error may exist in com/kezilai/merchant/mapper/MerchantMapper.java (best guess)
+### The error may involve com.kezilai.merchant.mapper.MerchantMapper.selectPage
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed] with root cause
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.prepareStatement(MybatisSimpleExecutor.java:91)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:66)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:155)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy61.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForIPage(MybatisMapperMethod.java:134)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:96)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:96)
+	at com.sun.proxy.$Proxy66.selectPage(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy68.selectPage(Unknown Source)
+	at com.kezilai.merchant.controller.MerchantController.login(MerchantController.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-02-25 10:46:49,742 INFO  [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource                :110  : HikariPool-1 - Starting...
+2020-02-25 10:46:49,759 INFO  [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource                :123  : HikariPool-1 - Start completed.
+2020-02-25 10:46:49,787 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-02-25 10:46:49,802 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-02-25 10:46:49,850 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant ORDER BY id DESC LIMIT ?,? 
+2020-02-25 10:46:49,851 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-02-25 10:46:49,857 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 10:46:50,372 WARN  [http-nio-8080-exec-4] org.apache.catalina.util.SessionIdGeneratorBase   :173  : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [118] milliseconds.
+2020-02-25 10:46:50,556 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 10:46:50,557 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 10:47:00,708 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (wechat_merchant = ?) 
+2020-02-25 10:47:00,709 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 1571078601(String)
+2020-02-25 10:47:00,710 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant WHERE (wechat_merchant = ?) ORDER BY id DESC LIMIT ?,? 
+2020-02-25 10:47:00,711 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 1571078601(String), 0(Long), 10(Long)
+2020-02-25 10:47:00,713 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 1
+2020-02-25 10:47:00,755 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 10:47:00,756 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 10:48:33,427 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-02-25 10:48:33,427 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-02-25 10:48:33,430 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant ORDER BY id DESC LIMIT ?,? 
+2020-02-25 10:48:33,430 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-02-25 10:48:33,435 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 10:48:33,491 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 10:48:33,492 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 10:58:59,794 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.add    :143  : ==>  Preparing: INSERT INTO merchant(belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) 
+2020-02-25 10:58:59,795 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.add    :143  : ==> Parameters: 彭日强(String), prq (String), 派人去(String), 彭日强(String), 13435144163(String), 2020-02-25(String), 审核中(String), null, null, (String), null, null, (String), (String), (String)
+2020-02-25 10:58:59,806 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.add    :143  : <==    Updates: 1
+2020-02-25 10:59:05,508 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-02-25 10:59:05,509 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-02-25 10:59:05,511 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant ORDER BY id DESC LIMIT ?,? 
+2020-02-25 10:59:05,511 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-02-25 10:59:05,515 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 10:59:05,583 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 10:59:05,583 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 11:14:50,934 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :50   : Starting MerchantApplication on DESKTOP-43PHJIE with PID 4748 (started by 15332 in D:\Java\IntelliJ IDEA-worksoace\merchant)
+2020-02-25 11:14:50,942 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :675  : No active profile set, falling back to default profiles: default
+2020-02-25 11:14:50,980 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-25 11:14:50,981 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-25 11:14:51,424 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:244  : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 11:14:51,426 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:126  : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-25 11:14:51,449 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:182  : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2020-02-25 11:14:51,656 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a032c67e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 11:14:52,054 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90   : Tomcat initialized with port(s): 8080 (http)
+2020-02-25 11:14:52,064 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 11:14:52,070 INFO  [restartedMain] org.apache.catalina.core.StandardService          :173  : Starting service [Tomcat]
+2020-02-25 11:14:52,070 INFO  [restartedMain] org.apache.catalina.core.StandardEngine           :173  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-02-25 11:14:52,076 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-25 11:14:52,076 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-25 11:14:52,077 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-25 11:14:52,088 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-25 11:14:52,269 INFO  [restartedMain] org.apache.jasper.servlet.TldScanner              :173  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-02-25 11:14:52,275 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring embedded WebApplicationContext
+2020-02-25 11:14:52,275 INFO  [restartedMain] org.springframework.web.context.ContextLoader     :296  : Root WebApplicationContext: initialization completed in 1294 ms
+2020-02-25 11:14:52,911 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 11:14:52,975 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61   : Adding welcome page template: index
+2020-02-25 11:14:53,244 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57   : LiveReload server is running on port 35729
+2020-02-25 11:14:53,264 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 11:14:53,271 INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool        :173  : Using a shared selector for servlet write/read
+2020-02-25 11:14:53,285 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-25 11:14:53,287 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :59   : Started MerchantApplication in 2.641 seconds (JVM running for 3.437)
+2020-02-25 11:15:04,887 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 11:15:04,889 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :524  : Initializing Servlet 'dispatcherServlet'
+2020-02-25 11:15:04,894 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :546  : Completed initialization in 5 ms
+2020-02-25 11:15:04,928 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :110  : HikariPool-1 - Starting...
+2020-02-25 11:15:05,004 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :123  : HikariPool-1 - Start completed.
+2020-02-25 11:15:05,093 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (wechat_merchant = ?) 
+2020-02-25 11:15:05,108 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 审核中(String)
+2020-02-25 11:15:05,650 WARN  [http-nio-8080-exec-1] org.apache.catalina.util.SessionIdGeneratorBase   :173  : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [116] milliseconds.
+2020-02-25 11:15:05,700 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 11:15:05,701 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 11:15:09,453 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (wechat_merchant = ?) 
+2020-02-25 11:15:09,454 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 待账户验证(String)
+2020-02-25 11:15:09,489 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 11:15:09,490 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 11:16:10,579 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :50   : Starting MerchantApplication on DESKTOP-43PHJIE with PID 8100 (started by 15332 in D:\Java\IntelliJ IDEA-worksoace\merchant)
+2020-02-25 11:16:10,582 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :675  : No active profile set, falling back to default profiles: default
+2020-02-25 11:16:10,619 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-25 11:16:10,619 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-25 11:16:11,080 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:244  : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 11:16:11,081 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:126  : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-25 11:16:11,097 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:182  : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2020-02-25 11:16:11,283 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6714bf31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 11:16:11,627 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90   : Tomcat initialized with port(s): 8080 (http)
+2020-02-25 11:16:11,634 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 11:16:11,640 INFO  [restartedMain] org.apache.catalina.core.StandardService          :173  : Starting service [Tomcat]
+2020-02-25 11:16:11,640 INFO  [restartedMain] org.apache.catalina.core.StandardEngine           :173  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-02-25 11:16:11,644 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-25 11:16:11,644 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-25 11:16:11,645 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-25 11:16:11,647 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-25 11:16:11,805 INFO  [restartedMain] org.apache.jasper.servlet.TldScanner              :173  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-02-25 11:16:11,809 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring embedded WebApplicationContext
+2020-02-25 11:16:11,809 INFO  [restartedMain] org.springframework.web.context.ContextLoader     :296  : Root WebApplicationContext: initialization completed in 1189 ms
+2020-02-25 11:16:12,379 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 11:16:12,431 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61   : Adding welcome page template: index
+2020-02-25 11:16:12,621 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57   : LiveReload server is running on port 35729
+2020-02-25 11:16:12,638 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 11:16:12,645 INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool        :173  : Using a shared selector for servlet write/read
+2020-02-25 11:16:12,656 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-25 11:16:12,659 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :59   : Started MerchantApplication in 2.336 seconds (JVM running for 2.972)
+2020-02-25 11:17:19,133 INFO  [http-nio-8080-exec-3] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 11:17:19,134 INFO  [http-nio-8080-exec-3] org.springframework.web.servlet.DispatcherServlet :524  : Initializing Servlet 'dispatcherServlet'
+2020-02-25 11:17:19,139 INFO  [http-nio-8080-exec-3] org.springframework.web.servlet.DispatcherServlet :546  : Completed initialization in 5 ms
+2020-02-25 11:17:19,164 INFO  [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource                :110  : HikariPool-1 - Starting...
+2020-02-25 11:17:19,230 INFO  [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource                :123  : HikariPool-1 - Start completed.
+2020-02-25 11:17:19,297 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 11:17:19,311 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 待账户验证(String)
+2020-02-25 11:17:19,779 WARN  [http-nio-8080-exec-3] org.apache.catalina.util.SessionIdGeneratorBase   :173  : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [115] milliseconds.
+2020-02-25 11:17:19,810 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 11:17:19,811 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 11:17:32,841 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 11:17:32,841 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 入驻完成(String)
+2020-02-25 11:17:32,845 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant WHERE (status = ?) ORDER BY id DESC LIMIT ?,? 
+2020-02-25 11:17:32,846 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 入驻完成(String), 0(Long), 10(Long)
+2020-02-25 11:17:32,859 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 11:17:32,930 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 11:17:32,930 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 11:17:36,414 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 11:17:36,414 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String)
+2020-02-25 11:17:36,417 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant WHERE (status = ?) ORDER BY id DESC LIMIT ?,? 
+2020-02-25 11:17:36,418 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String), 0(Long), 10(Long)
+2020-02-25 11:17:36,423 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 11:17:36,495 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 11:17:36,495 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 11:17:44,662 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 11:17:44,663 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 支付宝待验证(String)
+2020-02-25 11:17:44,665 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant WHERE (status = ?) ORDER BY id DESC LIMIT ?,? 
+2020-02-25 11:17:44,665 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 支付宝待验证(String), 0(Long), 10(Long)
+2020-02-25 11:17:44,667 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 6
+2020-02-25 11:17:44,726 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 11:17:44,726 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 11:17:47,199 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 11:17:47,200 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 待账户验证(String)
+2020-02-25 11:17:47,224 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 11:17:47,225 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 11:17:51,804 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 11:17:51,805 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 审核中(String)
+2020-02-25 11:17:51,806 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant WHERE (status = ?) ORDER BY id DESC LIMIT ?,? 
+2020-02-25 11:17:51,806 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 审核中(String), 0(Long), 10(Long)
+2020-02-25 11:17:51,809 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 11:17:51,880 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 11:17:51,881 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 11:18:10,146 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-02-25 11:18:10,146 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-02-25 11:18:10,149 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant ORDER BY id DESC LIMIT ?,? 
+2020-02-25 11:18:10,149 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 10(Long), 10(Long)
+2020-02-25 11:18:10,152 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 11:18:10,215 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 11:18:10,215 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 11:18:15,640 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-02-25 11:18:15,640 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-02-25 11:18:15,643 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant ORDER BY id DESC LIMIT ?,? 
+2020-02-25 11:18:15,644 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-02-25 11:18:15,646 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 11:18:15,704 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 11:18:15,705 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 14:29:36,421 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :50   : Starting MerchantApplication on DESKTOP-43PHJIE with PID 1392 (started by 15332 in D:\Java\IntelliJ IDEA-worksoace\merchant)
+2020-02-25 14:29:36,424 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :675  : No active profile set, falling back to default profiles: default
+2020-02-25 14:29:36,461 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-25 14:29:36,461 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-25 14:29:36,911 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:244  : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 14:29:36,912 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:126  : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-25 14:29:36,934 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:182  : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2020-02-25 14:29:37,142 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c1f768c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 14:29:37,918 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90   : Tomcat initialized with port(s): 8080 (http)
+2020-02-25 14:29:37,927 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 14:29:37,934 INFO  [restartedMain] org.apache.catalina.core.StandardService          :173  : Starting service [Tomcat]
+2020-02-25 14:29:37,934 INFO  [restartedMain] org.apache.catalina.core.StandardEngine           :173  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-02-25 14:29:37,939 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-25 14:29:37,939 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-25 14:29:37,939 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-25 14:29:37,942 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-25 14:29:38,116 INFO  [restartedMain] org.apache.jasper.servlet.TldScanner              :173  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-02-25 14:29:38,121 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring embedded WebApplicationContext
+2020-02-25 14:29:38,121 INFO  [restartedMain] org.springframework.web.context.ContextLoader     :296  : Root WebApplicationContext: initialization completed in 1659 ms
+2020-02-25 14:29:38,748 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 14:29:38,806 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61   : Adding welcome page template: index
+2020-02-25 14:29:39,215 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57   : LiveReload server is running on port 35729
+2020-02-25 14:29:39,255 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 14:29:39,263 INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool        :173  : Using a shared selector for servlet write/read
+2020-02-25 14:29:39,313 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-25 14:29:39,323 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :59   : Started MerchantApplication in 3.209 seconds (JVM running for 3.968)
+2020-02-25 14:29:48,471 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 14:29:48,472 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :524  : Initializing Servlet 'dispatcherServlet'
+2020-02-25 14:29:48,479 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :546  : Completed initialization in 7 ms
+2020-02-25 14:29:48,541 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :110  : HikariPool-1 - Starting...
+2020-02-25 14:29:48,615 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :123  : HikariPool-1 - Start completed.
+2020-02-25 14:29:48,647 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-02-25 14:29:48,661 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-02-25 14:29:48,709 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant ORDER BY id DESC LIMIT ?,? 
+2020-02-25 14:29:48,712 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-02-25 14:29:48,719 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 14:29:49,257 WARN  [http-nio-8080-exec-1] org.apache.catalina.util.SessionIdGeneratorBase   :173  : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [116] milliseconds.
+2020-02-25 14:29:49,510 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 14:29:49,511 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 15:16:01,527 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-02-25 15:16:01,533 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-02-25 15:16:01,542 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant ORDER BY id DESC LIMIT ?,? 
+2020-02-25 15:16:01,543 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-02-25 15:16:01,552 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 15:16:01,766 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 15:16:01,766 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 15:51:45,707 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :50   : Starting MerchantApplication on DESKTOP-43PHJIE with PID 6808 (started by 15332 in D:\Java\IntelliJ IDEA-worksoace\merchant)
+2020-02-25 15:51:45,709 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :675  : No active profile set, falling back to default profiles: default
+2020-02-25 15:51:45,747 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-25 15:51:45,748 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-25 15:51:46,127 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:244  : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 15:51:46,129 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:126  : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-25 15:51:46,144 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:182  : Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2020-02-25 15:51:46,353 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$63ed48c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 15:51:46,693 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90   : Tomcat initialized with port(s): 8080 (http)
+2020-02-25 15:51:46,702 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 15:51:46,708 INFO  [restartedMain] org.apache.catalina.core.StandardService          :173  : Starting service [Tomcat]
+2020-02-25 15:51:46,708 INFO  [restartedMain] org.apache.catalina.core.StandardEngine           :173  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-02-25 15:51:46,714 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-25 15:51:46,714 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-25 15:51:46,714 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-25 15:51:46,718 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-25 15:51:46,894 INFO  [restartedMain] org.apache.jasper.servlet.TldScanner              :173  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-02-25 15:51:46,899 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring embedded WebApplicationContext
+2020-02-25 15:51:46,899 INFO  [restartedMain] org.springframework.web.context.ContextLoader     :296  : Root WebApplicationContext: initialization completed in 1151 ms
+2020-02-25 15:51:47,453 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 15:51:47,507 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61   : Adding welcome page template: index
+2020-02-25 15:51:47,697 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57   : LiveReload server is running on port 35729
+2020-02-25 15:51:47,713 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 15:51:47,720 INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool        :173  : Using a shared selector for servlet write/read
+2020-02-25 15:51:47,731 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-25 15:51:47,734 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :59   : Started MerchantApplication in 2.278 seconds (JVM running for 2.983)
+2020-02-25 15:51:57,087 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 15:51:57,088 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :524  : Initializing Servlet 'dispatcherServlet'
+2020-02-25 15:51:57,093 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :546  : Completed initialization in 5 ms
+2020-02-25 15:51:57,147 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :110  : HikariPool-1 - Starting...
+2020-02-25 15:51:57,213 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :123  : HikariPool-1 - Start completed.
+2020-02-25 15:51:57,241 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-02-25 15:51:57,253 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-02-25 15:51:57,269 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant ORDER BY id DESC LIMIT ?,? 
+2020-02-25 15:51:57,270 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-02-25 15:51:57,277 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 15:51:57,770 WARN  [http-nio-8080-exec-1] org.apache.catalina.util.SessionIdGeneratorBase   :173  : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [118] milliseconds.
+2020-02-25 15:51:57,889 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 15:51:57,890 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 15:52:04,574 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 15:52:04,575 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String)
+2020-02-25 15:52:04,576 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant WHERE (status = ?) ORDER BY id DESC LIMIT ?,? 
+2020-02-25 15:52:04,577 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String), 0(Long), 10(Long)
+2020-02-25 15:52:04,587 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 15:52:12,804 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 15:52:12,804 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String)
+2020-02-25 15:52:12,805 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant WHERE (status = ?) ORDER BY id DESC LIMIT ?,? 
+2020-02-25 15:52:12,806 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String), 0(Long), 10(Long)
+2020-02-25 15:52:12,808 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 15:52:13,346 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 15:52:13,346 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String)
+2020-02-25 15:52:13,348 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant WHERE (status = ?) ORDER BY id DESC LIMIT ?,? 
+2020-02-25 15:52:13,348 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String), 0(Long), 10(Long)
+2020-02-25 15:52:13,350 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 15:52:13,666 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 15:52:13,667 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String)
+2020-02-25 15:52:13,668 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant WHERE (status = ?) ORDER BY id DESC LIMIT ?,? 
+2020-02-25 15:52:13,668 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String), 0(Long), 10(Long)
+2020-02-25 15:52:13,670 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 15:52:14,172 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 15:52:14,173 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String)
+2020-02-25 15:52:14,175 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant WHERE (status = ?) ORDER BY id DESC LIMIT ?,? 
+2020-02-25 15:52:14,175 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String), 0(Long), 10(Long)
+2020-02-25 15:52:14,178 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 15:52:14,770 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 15:52:14,771 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String)
+2020-02-25 15:52:14,772 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant WHERE (status = ?) ORDER BY id DESC LIMIT ?,? 
+2020-02-25 15:52:14,772 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String), 0(Long), 10(Long)
+2020-02-25 15:52:14,774 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 15:52:15,066 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 15:52:15,067 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String)
+2020-02-25 15:52:15,068 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant WHERE (status = ?) ORDER BY id DESC LIMIT ?,? 
+2020-02-25 15:52:15,069 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String), 0(Long), 10(Long)
+2020-02-25 15:52:15,071 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 15:52:51,313 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-02-25 15:52:51,313 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-02-25 15:52:51,315 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant ORDER BY id DESC LIMIT ?,? 
+2020-02-25 15:52:51,316 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-02-25 15:52:51,324 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 15:52:51,500 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (merchant_name = ?) 
+2020-02-25 15:52:51,501 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: null
+2020-02-25 15:52:54,483 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 15:52:54,483 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String)
+2020-02-25 15:52:54,484 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_id,alipay_pid,alipay_their,alipay_rate,note FROM merchant WHERE (status = ?) ORDER BY id DESC LIMIT ?,? 
+2020-02-25 15:52:54,485 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 微信待验证(String), 0(Long), 10(Long)
+2020-02-25 15:52:54,486 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-02-25 15:54:02,939 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 15:54:02,940 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 请选择(String)
+2020-02-25 15:54:04,466 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 15:54:04,467 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 请选择(String)
+2020-02-25 15:54:05,153 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 15:54:05,154 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 请选择(String)
+2020-02-25 15:54:05,594 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (status = ?) 
+2020-02-25 15:54:05,594 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 请选择(String)
+2020-02-25 15:54:16,906 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant WHERE (wechat_merchant = ?) 
+2020-02-25 15:54:16,906 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: a(String)

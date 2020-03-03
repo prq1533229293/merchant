@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<title>Vue.js</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+	<!-- vue-app 是根容器 -->
+	<div id="vue-app">
+
+		<h1> 双向数据绑定 / input / select / textarea </h1>
+		<!-- 双向数据绑定-方法绑定法 -->
+		<label>姓名:</label>
+		<input type="text" ref="name" v-on:keydown="logName">
+		<span>{{ name }}</span>
+		<label>年龄:</label>
+		<input type="text" ref="age" v-on:keyup="logAge">
+		<span>{{ age }}</span>
+        <br>
+		<!-- 双向数据绑定-指令绑定法 -->
+		<label>姓名:</label>
+		<input type="text" v-model="name">
+		<span>{{ name }}</span>
+		<label>年龄:</label>
+		<input type="text" v-model="age">
+		<span>{{ age }}</span>
+
+	</div>
+</body>
+<script src="app.js"></script>
+</html>

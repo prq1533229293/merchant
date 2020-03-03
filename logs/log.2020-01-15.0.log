@@ -1,0 +1,1064 @@
+2020-01-15 16:15:59,023 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :50   : Starting MerchantApplication on DESKTOP-ILLE8H7 with PID 3272 (started by PRQ in D:\IntelliJ IDEA\IDEA-worksoace\merchant)
+2020-01-15 16:15:59,042 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :675  : No active profile set, falling back to default profiles: default
+2020-01-15 16:15:59,238 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 16:15:59,239 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 16:16:00,380 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:244  : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-15 16:16:00,383 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:126  : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-15 16:16:00,428 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:182  : Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2020-01-15 16:16:00,972 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c11ff40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-15 16:16:01,655 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90   : Tomcat initialized with port(s): 8080 (http)
+2020-01-15 16:16:01,674 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-15 16:16:01,685 INFO  [restartedMain] org.apache.catalina.core.StandardService          :173  : Starting service [Tomcat]
+2020-01-15 16:16:01,686 INFO  [restartedMain] org.apache.catalina.core.StandardEngine           :173  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-01-15 16:16:01,698 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-01-15 16:16:01,699 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-15 16:16:01,699 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-15 16:16:01,717 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-01-15 16:16:02,182 INFO  [restartedMain] org.apache.jasper.servlet.TldScanner              :173  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-15 16:16:02,189 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring embedded WebApplicationContext
+2020-01-15 16:16:02,189 INFO  [restartedMain] org.springframework.web.context.ContextLoader     :296  : Root WebApplicationContext: initialization completed in 2948 ms
+2020-01-15 16:16:03,845 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 16:16:03,965 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61   : Adding welcome page template: index
+2020-01-15 16:16:04,469 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57   : LiveReload server is running on port 35729
+2020-01-15 16:16:04,508 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Starting ProtocolHandler ["http-nio-8080"]
+2020-01-15 16:16:04,520 INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool        :173  : Using a shared selector for servlet write/read
+2020-01-15 16:16:04,550 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-15 16:16:04,555 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :59   : Started MerchantApplication in 6.588 seconds (JVM running for 9.779)
+2020-01-15 16:16:34,656 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 16:16:34,656 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :524  : Initializing Servlet 'dispatcherServlet'
+2020-01-15 16:16:34,667 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :546  : Completed initialization in 11 ms
+2020-01-15 16:16:34,794 ERROR [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:175  : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.kezilai.merchant.controller.MerchantController.login(MerchantController.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-15 16:17:16,080 INFO  [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource                :110  : HikariPool-1 - Starting...
+2020-01-15 16:17:16,242 INFO  [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource                :123  : HikariPool-1 - Start completed.
+2020-01-15 16:17:16,299 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:17:16,327 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:17:16,390 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:17:16,392 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:17:16,408 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:17:17,681 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:17:17,683 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:17:17,693 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:17:17,696 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:17:17,697 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:17:17,699 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:17:17,700 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:17:17,704 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:22:39,027 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:22:39,029 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:22:39,034 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:22:39,036 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 10(Long), 10(Long)
+2020-01-15 16:22:39,042 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:22:39,256 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:22:39,257 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:22:39,262 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:22:39,266 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:22:39,267 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:22:39,276 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:22:39,277 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:22:39,282 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:22:45,139 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:22:45,140 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:22:45,145 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:22:45,146 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 20(Long), 10(Long)
+2020-01-15 16:22:45,152 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:22:45,331 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:22:45,332 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:22:45,336 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:22:45,340 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:22:45,341 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:22:45,348 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:22:45,349 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:22:45,353 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:22:51,013 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:22:51,014 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:22:51,018 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:22:51,019 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 40(Long), 10(Long)
+2020-01-15 16:22:51,025 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:22:51,215 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:22:51,216 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:22:51,220 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:22:51,224 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:22:51,225 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:22:51,236 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:22:51,237 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:22:51,240 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:22:53,307 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:22:53,309 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:22:53,315 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:22:53,318 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 20(Long), 10(Long)
+2020-01-15 16:22:53,322 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:22:53,463 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:22:53,464 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:22:53,469 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:22:53,473 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:22:53,473 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:22:53,477 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:22:53,478 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:22:53,482 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:22:56,186 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:22:56,187 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:22:56,190 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:22:56,193 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 20(Long), 10(Long)
+2020-01-15 16:22:56,199 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:22:56,355 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:22:56,356 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:22:56,359 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:22:56,361 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:22:56,362 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:22:56,366 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:22:56,367 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:22:56,370 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:22:58,390 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:22:58,391 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:22:58,394 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:22:58,395 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 30(Long), 10(Long)
+2020-01-15 16:22:58,398 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:22:58,562 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:22:58,562 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:22:58,566 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:22:58,568 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:22:58,569 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:22:58,572 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:22:58,573 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:22:58,575 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:24:03,541 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :50   : Starting MerchantApplication on DESKTOP-ILLE8H7 with PID 5960 (started by PRQ in D:\IntelliJ IDEA\IDEA-worksoace\merchant)
+2020-01-15 16:24:03,550 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :675  : No active profile set, falling back to default profiles: default
+2020-01-15 16:24:03,695 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 16:24:03,696 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 16:24:04,767 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:244  : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-15 16:24:04,770 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:126  : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-15 16:24:04,814 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:182  : Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2020-01-15 16:24:05,260 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7e717b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-15 16:24:05,908 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90   : Tomcat initialized with port(s): 8080 (http)
+2020-01-15 16:24:05,924 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-15 16:24:05,935 INFO  [restartedMain] org.apache.catalina.core.StandardService          :173  : Starting service [Tomcat]
+2020-01-15 16:24:05,935 INFO  [restartedMain] org.apache.catalina.core.StandardEngine           :173  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-01-15 16:24:05,946 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-01-15 16:24:05,947 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-15 16:24:05,948 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-15 16:24:05,952 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-01-15 16:24:06,358 INFO  [restartedMain] org.apache.jasper.servlet.TldScanner              :173  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-15 16:24:06,364 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring embedded WebApplicationContext
+2020-01-15 16:24:06,364 INFO  [restartedMain] org.springframework.web.context.ContextLoader     :296  : Root WebApplicationContext: initialization completed in 2667 ms
+2020-01-15 16:24:08,016 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 16:24:08,130 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61   : Adding welcome page template: index
+2020-01-15 16:24:08,572 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57   : LiveReload server is running on port 35729
+2020-01-15 16:24:08,609 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Starting ProtocolHandler ["http-nio-8080"]
+2020-01-15 16:24:08,620 INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool        :173  : Using a shared selector for servlet write/read
+2020-01-15 16:24:08,648 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-15 16:24:08,652 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :59   : Started MerchantApplication in 6.135 seconds (JVM running for 8.156)
+2020-01-15 16:24:29,891 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 16:24:29,892 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :524  : Initializing Servlet 'dispatcherServlet'
+2020-01-15 16:24:29,901 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :546  : Completed initialization in 9 ms
+2020-01-15 16:24:29,989 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :110  : HikariPool-1 - Starting...
+2020-01-15 16:24:30,128 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :123  : HikariPool-1 - Start completed.
+2020-01-15 16:24:30,184 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:24:30,209 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:24:30,242 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:24:30,245 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:24:30,283 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:24:31,293 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:24:31,293 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:24:31,303 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:24:31,306 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:24:31,307 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:24:31,310 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:24:31,311 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:24:31,316 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:24:50,595 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:24:50,597 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:24:50,600 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:24:50,601 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:24:50,608 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:24:50,781 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:24:50,782 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:24:50,787 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:24:50,790 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:24:50,791 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:24:50,800 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:24:50,801 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:24:50,806 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:28:10,891 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool                 :766  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s654ms425µs200ns).
+2020-01-15 16:29:07,500 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :50   : Starting MerchantApplication on DESKTOP-ILLE8H7 with PID 6940 (started by PRQ in D:\IntelliJ IDEA\IDEA-worksoace\merchant)
+2020-01-15 16:29:07,511 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :675  : No active profile set, falling back to default profiles: default
+2020-01-15 16:29:07,695 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 16:29:07,696 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 16:29:09,021 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:244  : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-15 16:29:09,024 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:126  : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-15 16:29:09,070 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:182  : Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2020-01-15 16:29:09,602 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d9793b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-15 16:29:10,324 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90   : Tomcat initialized with port(s): 8080 (http)
+2020-01-15 16:29:10,348 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-15 16:29:10,365 INFO  [restartedMain] org.apache.catalina.core.StandardService          :173  : Starting service [Tomcat]
+2020-01-15 16:29:10,366 INFO  [restartedMain] org.apache.catalina.core.StandardEngine           :173  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-01-15 16:29:10,380 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-01-15 16:29:10,381 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-15 16:29:10,381 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-15 16:29:10,386 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-01-15 16:29:10,827 INFO  [restartedMain] org.apache.jasper.servlet.TldScanner              :173  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-15 16:29:10,833 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring embedded WebApplicationContext
+2020-01-15 16:29:10,834 INFO  [restartedMain] org.springframework.web.context.ContextLoader     :296  : Root WebApplicationContext: initialization completed in 3137 ms
+2020-01-15 16:29:12,701 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 16:29:12,843 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61   : Adding welcome page template: index
+2020-01-15 16:29:13,413 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57   : LiveReload server is running on port 35729
+2020-01-15 16:29:13,453 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Starting ProtocolHandler ["http-nio-8080"]
+2020-01-15 16:29:13,468 INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool        :173  : Using a shared selector for servlet write/read
+2020-01-15 16:29:13,500 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-15 16:29:13,506 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :59   : Started MerchantApplication in 7.281 seconds (JVM running for 10.222)
+2020-01-15 16:29:42,102 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 16:29:42,103 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :524  : Initializing Servlet 'dispatcherServlet'
+2020-01-15 16:29:42,113 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :546  : Completed initialization in 10 ms
+2020-01-15 16:31:19,531 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :110  : HikariPool-1 - Starting...
+2020-01-15 16:31:19,540 INFO  [Thread-23] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-15 16:31:19,778 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :123  : HikariPool-1 - Start completed.
+2020-01-15 16:31:19,853 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:31:19,907 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:31:19,960 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:31:19,963 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:31:19,984 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:31:25,191 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :50   : Starting MerchantApplication on DESKTOP-ILLE8H7 with PID 10112 (started by PRQ in D:\IntelliJ IDEA\IDEA-worksoace\merchant)
+2020-01-15 16:31:25,198 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :675  : No active profile set, falling back to default profiles: default
+2020-01-15 16:31:25,327 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 16:31:25,327 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 16:31:26,365 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:244  : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-15 16:31:26,367 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:126  : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-15 16:31:26,405 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:182  : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2020-01-15 16:31:26,836 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$32d6257] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-15 16:31:27,442 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90   : Tomcat initialized with port(s): 8080 (http)
+2020-01-15 16:31:27,457 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-15 16:31:27,468 INFO  [restartedMain] org.apache.catalina.core.StandardService          :173  : Starting service [Tomcat]
+2020-01-15 16:31:27,470 INFO  [restartedMain] org.apache.catalina.core.StandardEngine           :173  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-01-15 16:31:27,479 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-01-15 16:31:27,479 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-15 16:31:27,480 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-15 16:31:27,484 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-01-15 16:31:27,900 INFO  [restartedMain] org.apache.jasper.servlet.TldScanner              :173  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-15 16:31:27,906 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring embedded WebApplicationContext
+2020-01-15 16:31:27,907 INFO  [restartedMain] org.springframework.web.context.ContextLoader     :296  : Root WebApplicationContext: initialization completed in 2579 ms
+2020-01-15 16:31:30,015 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 16:31:32,445 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61   : Adding welcome page template: index
+2020-01-15 16:31:33,590 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57   : LiveReload server is running on port 35729
+2020-01-15 16:31:33,641 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Starting ProtocolHandler ["http-nio-8080"]
+2020-01-15 16:31:33,653 INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool        :173  : Using a shared selector for servlet write/read
+2020-01-15 16:31:33,683 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-15 16:31:33,688 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :59   : Started MerchantApplication in 10.362 seconds (JVM running for 12.414)
+2020-01-15 16:31:49,907 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 16:31:49,908 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :524  : Initializing Servlet 'dispatcherServlet'
+2020-01-15 16:31:49,918 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :546  : Completed initialization in 10 ms
+2020-01-15 16:31:50,008 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :110  : HikariPool-1 - Starting...
+2020-01-15 16:31:50,165 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :123  : HikariPool-1 - Start completed.
+2020-01-15 16:31:50,211 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:31:50,237 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:31:50,260 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:31:50,262 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:31:50,282 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:31:51,307 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:31:51,308 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:31:51,319 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:31:51,323 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:31:51,324 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:31:51,327 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:31:51,328 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:31:51,334 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:33:25,048 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:33:25,050 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:33:25,054 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:33:25,055 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 10(Long), 10(Long)
+2020-01-15 16:33:25,062 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:33:25,218 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:33:25,219 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:33:25,225 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:33:25,229 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:33:25,230 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:33:25,234 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:33:25,235 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:33:25,240 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:51:11,154 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:51:11,155 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:51:11,158 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:51:11,159 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 10(Long), 10(Long)
+2020-01-15 16:51:11,164 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:51:11,632 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:51:11,633 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:51:11,637 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:51:11,642 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:51:11,643 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:51:11,650 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:51:11,652 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:51:11,657 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:51:13,489 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:51:13,491 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:51:13,495 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:51:13,497 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 10(Long), 10(Long)
+2020-01-15 16:51:13,503 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:51:13,759 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:51:13,760 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:51:13,764 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:51:13,768 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:51:13,768 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:51:13,772 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:51:13,773 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:51:13,777 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:51:16,137 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:51:16,138 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:51:16,141 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:51:16,143 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 10(Long), 10(Long)
+2020-01-15 16:51:16,148 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:51:16,410 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:51:16,411 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:51:16,414 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:51:16,419 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:51:16,420 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:51:16,427 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:51:16,428 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:51:16,433 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:51:19,925 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:51:19,926 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:51:19,930 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:51:19,932 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 10(Long), 10(Long)
+2020-01-15 16:51:19,938 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:51:20,145 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:51:20,146 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:51:20,150 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:51:20,155 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:51:20,156 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:51:20,160 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:51:20,161 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:51:20,165 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:51:21,803 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:51:21,803 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:51:21,818 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:51:21,819 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 20(Long), 10(Long)
+2020-01-15 16:51:21,825 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 16:51:22,031 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 16:51:22,031 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 16:51:22,036 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 16:51:22,040 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 16:51:22,040 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 16:51:22,045 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 16:51:22,046 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 16:51:22,050 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:00:04,715 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:00:04,716 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:00:04,722 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:00:04,723 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 20(Long), 10(Long)
+2020-01-15 17:00:04,726 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:00:05,211 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:00:05,214 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:00:05,218 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:00:05,223 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:00:05,224 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:00:05,229 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:00:05,230 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:00:05,232 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:00:11,966 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:00:11,966 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:00:11,968 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:00:11,969 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 30(Long), 10(Long)
+2020-01-15 17:00:11,972 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:00:12,212 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:00:12,213 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:00:12,216 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:00:12,219 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:00:12,221 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:00:12,228 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:00:12,229 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:00:12,232 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:00:38,281 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:00:38,282 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:00:38,286 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:00:38,287 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 30(Long), 10(Long)
+2020-01-15 17:00:38,292 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:00:38,711 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:00:38,713 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:00:38,716 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:00:38,719 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:00:38,719 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:00:38,725 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:00:38,726 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:00:38,730 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:00:40,810 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:00:40,811 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:00:40,814 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:00:40,815 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 40(Long), 10(Long)
+2020-01-15 17:00:40,819 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:00:41,042 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:00:41,043 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:00:41,047 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:00:41,050 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:00:41,051 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:00:41,054 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:00:41,055 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:00:41,058 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:00:43,854 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:00:43,855 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:00:43,862 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:00:43,863 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 50(Long), 10(Long)
+2020-01-15 17:00:43,866 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:00:44,091 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:00:44,092 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:00:44,097 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:00:44,099 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:00:44,100 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:00:44,107 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:00:44,108 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:00:44,111 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:01:47,891 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:01:47,892 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:01:47,895 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:01:47,896 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 50(Long), 10(Long)
+2020-01-15 17:01:47,898 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:01:48,422 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:01:48,423 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:01:48,425 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:01:48,428 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:01:48,429 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:01:48,446 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:01:48,447 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:01:48,450 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:01:51,713 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:01:51,714 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:01:51,717 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:01:51,718 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:01:51,722 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:01:51,933 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:01:51,935 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:01:51,937 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:01:51,941 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:01:51,941 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:01:51,958 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:01:51,958 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:01:51,961 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:01:54,661 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:01:54,663 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:01:54,666 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:01:54,667 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 40(Long), 10(Long)
+2020-01-15 17:01:54,670 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:01:54,874 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:01:54,875 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:01:54,879 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:01:54,882 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:01:54,883 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:01:54,887 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:01:54,888 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:01:54,891 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:01:58,271 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:01:58,272 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:01:58,280 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:01:58,281 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 60(Long), 10(Long)
+2020-01-15 17:01:58,282 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:01:58,508 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:01:58,509 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:01:58,512 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:01:58,516 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:01:58,517 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:01:58,524 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:01:58,525 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:01:58,529 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:07,746 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:07,747 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:07,750 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:07,751 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 70(Long), 10(Long)
+2020-01-15 17:02:07,754 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:07,979 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:02:07,980 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:02:07,982 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:02:07,985 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:07,986 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:07,993 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:07,994 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:02:07,996 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:09,947 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:09,948 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:09,950 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:09,951 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 80(Long), 10(Long)
+2020-01-15 17:02:09,956 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:10,168 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:02:10,170 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:02:10,173 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:02:10,176 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:10,177 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:10,192 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:10,193 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:02:10,196 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:11,640 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:11,641 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:11,648 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:11,650 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 90(Long), 10(Long)
+2020-01-15 17:02:11,653 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:11,918 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:02:11,918 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:02:11,921 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:02:11,924 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:11,925 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:11,930 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:11,931 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:02:11,933 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:13,009 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:13,009 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:13,011 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:13,013 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 100(Long), 10(Long)
+2020-01-15 17:02:13,016 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:13,243 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:02:13,244 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:02:13,246 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:02:13,249 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:13,250 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:13,262 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:13,262 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:02:13,265 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:14,580 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:14,581 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:14,584 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:14,585 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 110(Long), 10(Long)
+2020-01-15 17:02:14,589 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:14,817 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:02:14,818 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:02:14,821 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:02:14,823 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:14,824 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:14,832 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:14,833 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:02:14,835 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:15,938 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:15,938 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:15,941 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:15,942 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 120(Long), 10(Long)
+2020-01-15 17:02:15,944 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:16,187 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:02:16,188 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:02:16,190 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:02:16,193 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:16,194 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:16,196 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:16,197 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:02:16,200 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:17,827 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:17,828 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:17,831 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:17,832 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 130(Long), 10(Long)
+2020-01-15 17:02:17,836 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:18,048 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:02:18,049 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:02:18,051 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:02:18,055 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:18,056 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:18,060 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:18,061 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:02:18,064 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:19,233 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:19,234 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:19,236 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:19,237 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 140(Long), 10(Long)
+2020-01-15 17:02:19,239 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:19,448 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:02:19,449 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:02:19,452 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:02:19,455 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:19,456 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:19,475 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:19,476 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:02:19,478 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:20,576 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:20,577 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:20,579 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:20,580 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 150(Long), 10(Long)
+2020-01-15 17:02:20,581 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:20,807 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:02:20,808 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:02:20,810 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:02:20,813 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:20,813 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:20,817 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:20,818 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:02:20,820 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:30,990 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:30,992 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:30,998 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:30,999 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 160(Long), 10(Long)
+2020-01-15 17:02:31,002 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:02:31,218 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:02:31,219 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:02:31,222 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:02:31,224 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:02:31,225 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:02:31,232 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:02:31,232 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:02:31,237 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:03:35,096 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:03:35,097 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:03:35,099 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:03:35,100 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 160(Long), 10(Long)
+2020-01-15 17:03:35,102 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:03:35,527 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:03:35,528 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:03:35,530 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:03:35,533 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:03:35,535 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:03:35,537 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:03:35,539 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:03:35,541 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:03:37,650 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:03:37,651 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:03:37,654 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:03:37,655 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:03:37,658 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:03:37,896 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:03:37,897 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:03:37,899 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:03:37,902 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:03:37,903 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:03:37,909 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:03:37,910 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:03:37,913 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:03:42,948 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:03:42,949 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:03:42,951 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:03:42,952 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 390(Long), 10(Long)
+2020-01-15 17:03:42,956 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:03:43,211 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:03:43,212 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:03:43,215 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:03:43,218 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:03:43,219 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:03:43,238 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:03:43,240 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:03:43,243 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:03:45,971 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:03:45,971 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:03:45,974 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:03:45,975 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:03:45,976 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:03:46,164 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:03:46,165 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:03:46,167 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:03:46,169 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:03:46,169 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:03:46,181 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:03:46,182 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:03:46,184 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:04:49,347 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:04:49,347 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:04:49,349 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:04:49,350 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:04:49,352 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:04:49,843 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:04:49,844 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:04:49,846 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:04:49,848 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:04:49,849 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:04:49,880 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:04:49,882 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:04:49,885 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:04:51,316 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:04:51,317 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:04:51,320 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:04:51,321 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 30(Long), 10(Long)
+2020-01-15 17:04:51,324 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:04:51,542 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:04:51,543 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:04:51,545 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:04:51,548 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:04:51,549 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:04:51,556 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:04:51,557 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:04:51,559 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:04:52,887 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:04:52,888 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:04:52,889 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:04:52,890 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 50(Long), 10(Long)
+2020-01-15 17:04:52,891 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:04:53,093 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:04:53,094 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:04:53,096 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:04:53,098 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:04:53,099 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:04:53,129 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:04:53,131 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:04:53,134 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:04:54,201 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:04:54,202 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:04:54,204 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:04:54,205 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 70(Long), 10(Long)
+2020-01-15 17:04:54,208 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:04:54,405 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:04:54,406 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:04:54,409 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:04:54,411 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:04:54,412 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:04:54,419 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:04:54,421 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:04:54,423 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:06:59,977 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:06:59,979 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:06:59,986 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:06:59,987 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 70(Long), 10(Long)
+2020-01-15 17:06:59,990 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:07:00,447 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:07:00,448 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:07:00,452 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:07:00,454 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:07:00,454 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:07:00,457 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:07:00,458 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:07:00,460 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:07:02,310 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:07:02,311 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:07:02,313 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:07:02,314 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 10(Long), 10(Long)
+2020-01-15 17:07:02,316 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:07:02,517 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:07:02,519 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:07:02,521 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:07:02,524 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:07:02,524 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:07:02,536 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:07:02,536 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:07:02,538 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:07:03,859 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:07:03,860 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:07:03,862 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:07:03,863 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 20(Long), 10(Long)
+2020-01-15 17:07:03,865 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:07:04,054 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:07:04,055 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:07:04,058 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:07:04,060 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:07:04,061 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:07:04,086 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:07:04,087 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:07:04,089 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:07:05,006 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:07:05,006 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:07:05,008 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:07:05,009 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 50(Long), 10(Long)
+2020-01-15 17:07:05,010 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:07:05,208 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:07:05,210 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:07:05,212 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:07:05,215 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:07:05,216 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:07:05,225 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:07:05,226 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:07:05,228 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:07:06,168 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:07:06,169 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:07:06,171 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:07:06,172 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 40(Long), 10(Long)
+2020-01-15 17:07:06,174 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:07:06,394 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:07:06,394 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:07:06,397 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:07:06,400 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:07:06,400 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:07:06,402 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:07:06,403 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:07:06,406 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:07:07,325 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:07:07,326 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:07:07,328 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:07:07,328 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 60(Long), 10(Long)
+2020-01-15 17:07:07,330 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:07:07,537 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:07:07,538 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:07:07,540 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:07:07,542 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:07:07,543 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:07:07,550 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:07:07,551 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:07:07,554 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:11:24,013 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:11:24,013 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:11:24,015 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:11:24,016 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 60(Long), 10(Long)
+2020-01-15 17:11:24,019 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:11:24,441 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:11:24,442 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:11:24,444 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:11:24,447 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:11:24,448 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:11:24,453 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:11:24,453 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:11:24,456 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:11:29,551 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:11:29,552 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:11:29,554 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:11:29,555 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 40(Long), 10(Long)
+2020-01-15 17:11:29,558 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:11:29,753 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:11:29,753 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:11:29,755 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:11:29,757 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:11:29,758 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:11:29,772 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:11:29,773 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:11:29,776 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:11:32,213 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:11:32,213 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:11:32,215 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:11:32,216 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 40(Long), 10(Long)
+2020-01-15 17:11:32,217 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:11:32,463 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:11:32,464 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:11:32,466 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:11:32,469 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:11:32,469 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:11:32,486 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:11:32,487 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:11:32,489 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:12:38,059 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:12:38,060 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:12:38,062 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:12:38,063 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 40(Long), 10(Long)
+2020-01-15 17:12:38,065 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:12:38,474 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:12:38,475 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:12:38,479 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:12:38,482 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:12:38,482 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:12:38,494 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:12:38,495 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:12:38,497 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:12:41,293 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:12:41,294 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:12:41,296 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:12:41,296 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 50(Long), 10(Long)
+2020-01-15 17:12:41,298 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:12:41,498 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:12:41,499 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:12:41,501 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:12:41,503 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:12:41,504 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:12:41,507 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:12:41,508 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:12:41,510 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:12:43,318 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:12:43,319 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:12:43,322 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:12:43,322 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 40(Long), 10(Long)
+2020-01-15 17:12:43,325 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:12:43,531 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:12:43,532 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:12:43,534 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:12:43,536 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:12:43,537 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:12:43,560 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:12:43,561 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:12:43,563 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:13:14,188 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:13:14,189 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:13:14,194 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:13:14,195 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 40(Long), 10(Long)
+2020-01-15 17:13:14,198 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:13:14,615 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:13:14,616 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:13:14,619 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:13:14,621 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:13:14,622 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:13:14,632 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:13:14,633 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:13:14,636 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:13:15,822 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:13:15,823 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:13:15,825 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:13:15,826 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 40(Long), 10(Long)
+2020-01-15 17:13:15,828 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:13:16,058 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:13:16,059 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:13:16,061 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:13:16,063 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:13:16,064 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:13:16,067 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:13:16,068 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:13:16,070 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:13:17,584 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:13:17,584 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:13:17,586 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:13:17,587 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 40(Long), 10(Long)
+2020-01-15 17:13:17,590 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:13:17,781 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:13:17,782 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:13:17,784 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:13:17,787 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:13:17,788 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:13:17,791 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:13:17,792 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:13:17,794 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:13:19,523 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:13:19,524 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:13:19,526 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:13:19,526 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 50(Long), 10(Long)
+2020-01-15 17:13:19,529 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:13:19,733 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:13:19,734 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:13:19,736 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:13:19,739 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:13:19,740 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:13:19,751 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:13:19,752 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:13:19,755 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:13:21,000 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:13:21,000 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:13:21,002 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:13:21,003 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 50(Long), 10(Long)
+2020-01-15 17:13:21,005 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:13:21,227 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:13:21,227 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:13:21,229 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:13:21,231 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:13:21,232 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:13:21,234 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:13:21,235 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:13:21,237 DEBUG [http-nio-8080-exec-10] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:13:22,799 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:13:22,800 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:13:22,803 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:13:22,804 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 40(Long), 10(Long)
+2020-01-15 17:13:22,807 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:13:23,020 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:13:23,021 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:13:23,023 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:13:23,025 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:13:23,025 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:13:23,028 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:13:23,028 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:13:23,031 DEBUG [http-nio-8080-exec-5] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:34:52,063 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :50   : Starting MerchantApplication on DESKTOP-ILLE8H7 with PID 4720 (started by PRQ in D:\IntelliJ IDEA\IDEA-worksoace\merchant)
+2020-01-15 17:34:52,070 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :675  : No active profile set, falling back to default profiles: default
+2020-01-15 17:34:52,207 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-15 17:34:52,208 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-15 17:34:53,231 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:244  : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-15 17:34:53,234 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:126  : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-15 17:34:53,273 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:182  : Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2020-01-15 17:34:53,707 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2deced6a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-15 17:34:54,277 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90   : Tomcat initialized with port(s): 8080 (http)
+2020-01-15 17:34:54,291 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-15 17:34:54,301 INFO  [restartedMain] org.apache.catalina.core.StandardService          :173  : Starting service [Tomcat]
+2020-01-15 17:34:54,301 INFO  [restartedMain] org.apache.catalina.core.StandardEngine           :173  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-01-15 17:34:54,310 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-01-15 17:34:54,311 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-15 17:34:54,311 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-15 17:34:54,316 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener     :173  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-01-15 17:34:54,737 INFO  [restartedMain] org.apache.jasper.servlet.TldScanner              :173  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-15 17:34:54,743 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring embedded WebApplicationContext
+2020-01-15 17:34:54,744 INFO  [restartedMain] org.springframework.web.context.ContextLoader     :296  : Root WebApplicationContext: initialization completed in 2534 ms
+2020-01-15 17:34:56,305 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 17:34:56,416 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61   : Adding welcome page template: index
+2020-01-15 17:34:56,839 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57   : LiveReload server is running on port 35729
+2020-01-15 17:34:56,872 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol        :173  : Starting ProtocolHandler ["http-nio-8080"]
+2020-01-15 17:34:56,883 INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool        :173  : Using a shared selector for servlet write/read
+2020-01-15 17:34:56,908 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-15 17:34:56,912 INFO  [restartedMain] com.kezilai.merchant.MerchantApplication          :59   : Started MerchantApplication in 5.685 seconds (JVM running for 8.124)
+2020-01-15 17:35:12,897 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-15 17:35:12,898 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :524  : Initializing Servlet 'dispatcherServlet'
+2020-01-15 17:35:12,911 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet :546  : Completed initialization in 13 ms
+2020-01-15 17:35:13,025 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :110  : HikariPool-1 - Starting...
+2020-01-15 17:35:13,213 INFO  [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource                :123  : HikariPool-1 - Start completed.
+2020-01-15 17:35:13,258 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:35:13,283 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:35:13,306 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:35:13,309 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:35:13,324 DEBUG [http-nio-8080-exec-1] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:35:14,703 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:35:14,704 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:35:14,724 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:35:14,728 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:35:14,730 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:35:14,735 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:35:14,736 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:35:14,743 DEBUG [http-nio-8080-exec-2] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:35:16,891 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:35:16,892 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:35:16,896 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:35:16,898 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 20(Long), 10(Long)
+2020-01-15 17:35:16,906 DEBUG [http-nio-8080-exec-3] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:35:17,072 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:35:17,074 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:35:17,079 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:35:17,083 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:35:17,084 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:35:17,090 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:35:17,092 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:35:17,098 DEBUG [http-nio-8080-exec-4] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:35:27,102 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:35:27,104 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:35:27,106 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:35:27,107 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 20(Long), 10(Long)
+2020-01-15 17:35:27,112 DEBUG [http-nio-8080-exec-6] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:35:27,324 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:35:27,325 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:35:27,329 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:35:27,333 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:35:27,334 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:35:27,372 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:35:27,373 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:35:27,378 DEBUG [http-nio-8080-exec-7] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:35:33,509 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:35:33,512 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:35:33,516 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:35:33,518 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 50(Long), 10(Long)
+2020-01-15 17:35:33,522 DEBUG [http-nio-8080-exec-8] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10
+2020-01-15 17:35:33,769 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,date_format( application_date, '%Y-%m-%d' ) AS application_date,status,child_merchant,weChat_merchant,weChat_rate,weChat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT 0,10 
+2020-01-15 17:35:33,770 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.select :143  : ==> Parameters: 
+2020-01-15 17:35:33,775 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.select :143  : <==      Total: 10
+2020-01-15 17:35:33,779 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT COUNT(1) FROM merchant 
+2020-01-15 17:35:33,780 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 
+2020-01-15 17:35:33,817 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==>  Preparing: SELECT id,belong,merchant_name,merchant_forshort,contact_name,phone,application_date,status,child_merchant,wechat_merchant,wechat_rate,wechat_rate_date,alipay_pid,alipay_their,alipay_rate,note FROM merchant LIMIT ?,? 
+2020-01-15 17:35:33,819 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : ==> Parameters: 0(Long), 10(Long)
+2020-01-15 17:35:33,822 DEBUG [http-nio-8080-exec-9] com.kezilai.merchant.mapper.MerchantMapper.selectPage:143  : <==      Total: 10

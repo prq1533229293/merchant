@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<title>Vue.js</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+	<!-- vue-app 是根容器 -->
+	<div id="vue-app">
+
+		<h1> 键盘按键事件 </h1>
+		<h3>enter键事件和delete键事件</h3>
+		<label>姓名:</label>
+		<input type="text" ref="name" v-on:keyup.enter="enter" v-bind:value="name">
+		<label>年龄:</label>
+		<input type="text" ref="age" v-on:keyup.delete="del" v-bind:value="age">
+		<br>
+		<br>
+		<h3>键盘按下和键盘松开事件</h3>
+		<label>姓名:</label>
+		<input type="text" ref="name" v-on:keydown="logName" v-bind:value="name">
+		<label>年龄:</label>
+		<input type="text" ref="age" v-on:keyup="logAge" v-bind:value="age">
+
+	</div>
+</body>
+<script src="app.js"></script>
+</html>

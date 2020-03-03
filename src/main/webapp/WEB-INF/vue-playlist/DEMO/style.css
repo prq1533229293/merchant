@@ -1,0 +1,16 @@
+#bag{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
+#HP{
+    width: 200px;
+    border: 1px solid black;
+}
+
+#HP div{
+    background: red;
+    height: 20px;
+    text-align: center;
+
+}
