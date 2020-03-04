@@ -6,8 +6,149 @@
     <script src="vue.js" type="text/javascript" charset="utf-8"></script>
     <!-- import CSS -->
     <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <style type="text/css">
+        .el-table th{
+            text-align: center;
+        }
+        .el-input__inner{
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    hello github
+    <div id="app">
+        <template>
+            <el-table :data="tableData" border style="width: 90%">
+
+                <el-table-column prop="id" label="ID" width="50px">
+                </el-table-column>
+
+<!--                <el-table-column prop="name" label="代理商姓名" width="100px">-->
+<!--                <el-input slot-scope="scope" v-model="scope.row.name" placeholder="姓名"></el-input>-->
+<!--                </el-table-column>-->
+                <el-table-column prop="name" label="代理商姓名" width="100px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="营业执照名称" width="220px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="商户简称" width="220px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="联系人姓名" width="220px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="联系电话" width="220px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="申请入驻日期" width="220px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="入驻状态" width="220px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="云支付子商户账号" width="220px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="微信商户号" width="220px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="微信费率" width="220px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="微信费率生效日期" width="220px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="支付宝账号" width="220px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="支付宝商家PID" width="220px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="支付宝商家名称" width="220px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="支付宝费率" width="220px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="备注" width="220px">
+                </el-table-column>
+
+                <el-table-column prop="address" label="操作" width="176px">
+                    <template slot-scope="scope">
+                        <el-button type="danger">编辑</el-button>
+                        <el-button type="danger">删除</el-button>
+                    </template>
+                </el-table-column>
+
+            </el-table>
+            <el-pagination
+                    background
+                    layout="total, prev, pager, next"
+                    :total="1000">
+            </el-pagination>
+            <el-pagination
+                    background
+                    :page-size="10"
+                    layout="total, prev, pager, next"
+                    :total="100">
+            </el-pagination>
+        </template>
+    </div>
 </body>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script>
+    var Main = {
+        data() {
+            return {
+                tableData: [{
+                    id: '1',
+                    name: '王小虎',
+                    address: '上海市普陀区金沙江路 1518 弄'
+                }, {
+                    id: '2',
+                    name: '王小虎',
+                    address: '上海市普陀区金沙江路 1518 弄'
+                }, {
+                    id: '3',
+                    name: '王小虎',
+                    address: '上海市普陀区金沙江路 1518 弄'
+                }, {
+                    id: '4',
+                    name: '王小虎',
+                    address: '上海市普陀区金沙江路 1518 弄'
+                }, {
+                    id: '5',
+                    name: '王小虎',
+                    address: '上海市普陀区金沙江路 1518 弄'
+                }, {
+                    id: '6',
+                    name: '王小虎',
+                    address: '上海市普陀区金沙江路 1518 弄'
+                }, {
+                    id: '7',
+                    name: '王小虎',
+                    address: '上海市普陀区金沙江路 1518 弄'
+                }, {
+                    id: '8',
+                    name: '王小虎',
+                    address: '上海市普陀区金沙江路 1518 弄'
+                }, {
+                    id: '9',
+                    name: '王小虎',
+                    address: '上海市普陀区金沙江路 1518 弄'
+                }, {
+                    id: '10',
+                    name: '王小虎',
+                    address: '上海市普陀区金沙江路 1518 弄'
+                }]
+            }
+        }
+    }
+    var Ctor = Vue.extend(Main)
+    new Ctor().$mount('#app')
+</script>
 </html>
