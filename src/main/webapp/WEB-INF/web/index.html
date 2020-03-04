@@ -26,58 +26,58 @@
 <!--                <el-table-column prop="name" label="代理商姓名" width="100px">-->
 <!--                <el-input slot-scope="scope" v-model="scope.row.name" placeholder="姓名"></el-input>-->
 <!--                </el-table-column>-->
-                <el-table-column prop="name" label="代理商姓名" width="100px">
+                <el-table-column prop="belong" label="代理商姓名" width="100px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="营业执照名称" width="220px">
+                <el-table-column prop="merchantName" label="营业执照名称" width="220px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="商户简称" width="220px">
+                <el-table-column prop="merchantForshort" label="商户简称" width="180px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="联系人姓名" width="220px">
+                <el-table-column prop="contactName" label="联系人姓名" width="100px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="联系电话" width="220px">
+                <el-table-column prop="phone" label="联系电话" width="120px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="申请入驻日期" width="220px">
+                <el-table-column prop="applicationDate" label="申请入驻日期" width="120px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="入驻状态" width="220px">
+                <el-table-column prop="status" label="入驻状态" width="150px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="云支付子商户账号" width="220px">
+                <el-table-column prop="childMerchant" label="云支付子商户账号" width="220px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="微信商户号" width="220px">
+                <el-table-column prop="wechatMerchant" label="微信商户号" width="120px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="微信费率" width="220px">
+                <el-table-column prop="wechatRate" label="微信费率" width="80px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="微信费率生效日期" width="220px">
+                <el-table-column prop="wechatRateDate" label="微信费率生效日期" width="150px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="支付宝账号" width="220px">
+                <el-table-column prop="alipayId" label="支付宝账号" width="220px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="支付宝商家PID" width="220px">
+                <el-table-column prop="alipayPid" label="支付宝商家PID" width="220px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="支付宝商家名称" width="220px">
+                <el-table-column prop="alipayTheir" label="支付宝商家名称" width="220px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="支付宝费率" width="220px">
+                <el-table-column prop="alipayRate" label="支付宝费率" width="80px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="备注" width="220px">
+                <el-table-column prop="note" label="备注" width="220px">
                 </el-table-column>
 
-                <el-table-column prop="address" label="操作" width="176px">
+                <el-table-column label="操作" width="176px">
                     <template slot-scope="scope">
-                        <el-button type="danger">编辑</el-button>
-                        <el-button type="danger">删除</el-button>
+                        <el-button type="danger" size="small">编辑</el-button>
+                        <el-button type="danger" size="small">删除</el-button>
                     </template>
                 </el-table-column>
 
@@ -106,16 +106,58 @@
             return {
                 tableData: [{
                     id: '1',
-                    name: '王小虎',
-                    address: '上海市普陀区金沙江路 1518 弄'
+                    belong: '郑衡周',
+                    merchantName: '深圳市坪山新区刘兴汤粉店',
+                    merchantForshort: "潮汕汤粉店",
+                    contactName: '刘锦书',
+                    phone: '13713601606',
+                    applicationDate: '2019-12-23',
+                    status: '微信待验证',
+                    childMerchant: '',
+                    wechatMerchant: '1571078601',
+                    wechatRate: '0.38',
+                    wechatRateDate: '',
+                    alipayId: '',
+                    alipayPid: '',
+                    alipayTheir: '刘俊年',
+                    alipayRate: '0.38',
+                    note: ''
                 }, {
-                    id: '2',
-                    name: '王小虎',
-                    address: '上海市普陀区金沙江路 1518 弄'
+                    id: '1',
+                    belong: '郑衡周',
+                    merchantName: '深圳市坪山新区刘兴汤粉店',
+                    merchantForshort: "潮汕汤粉店",
+                    contactName: '刘锦书',
+                    phone: '13713601606',
+                    applicationDate: '2019-12-23',
+                    status: '微信待验证',
+                    childMerchant: '',
+                    wechatMerchant: '1571078601',
+                    wechatRate: '0.38',
+                    wechatRateDate: '',
+                    alipayId: '',
+                    alipayPid: '',
+                    alipayTheir: '刘俊年',
+                    alipayRate: '0.38',
+                    note: ''
                 }, {
-                    id: '3',
-                    name: '王小虎',
-                    address: '上海市普陀区金沙江路 1518 弄'
+                    id: '1',
+                    belong: '郑衡周',
+                    merchantName: '深圳市坪山新区刘兴汤粉店',
+                    merchantForshort: "潮汕汤粉店",
+                    contactName: '刘锦书',
+                    phone: '13713601606',
+                    applicationDate: '2019-12-23',
+                    status: '微信待验证',
+                    childMerchant: '',
+                    wechatMerchant: '1571078601',
+                    wechatRate: '0.38',
+                    wechatRateDate: '',
+                    alipayId: '',
+                    alipayPid: '',
+                    alipayTheir: '刘俊年',
+                    alipayRate: '0.38',
+                    note: ''
                 }, {
                     id: '4',
                     name: '王小虎',
