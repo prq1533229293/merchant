@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vue 测试实例</title>
+<script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+<script src="https://cdn.staticfile.org/vue-resource/1.5.1/vue-resource.min.js"></script>
+</head>
+<body>
+<div id="box">
+	<input type="button" @click="post()" value="查询">
+</div>
+<script type = "text/javascript">
+window.onload = function(){
+	var vm = new Vue({
+	    el:'#box',
+	    data:{
+	        msg:'Hello World!',
+	    },
+	    methods:{
+	        post:function(){
+	            //发送 post 请求
+	            this.$http.post('http://localhost:8080/select入驻完成',{"merchantName":"","merchantName":"","status":"入驻完成"},{emulateJSON:true}).then(function(res){
+                    console.log(res);    
+                },function(res){
+                    console.log(res.status);
+                });
+	        }
+	    }
+	});
+}
+</script>
+</body>
+</html>

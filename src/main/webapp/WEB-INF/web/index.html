@@ -23,9 +23,6 @@
                 <el-table-column prop="id" label="ID" width="50px">
                 </el-table-column>
 
-<!--                <el-table-column prop="name" label="代理商姓名" width="100px">-->
-<!--                <el-input slot-scope="scope" v-model="scope.row.name" placeholder="姓名"></el-input>-->
-<!--                </el-table-column>-->
                 <el-table-column prop="belong" label="代理商姓名" width="100px">
                 </el-table-column>
 
@@ -123,7 +120,7 @@
                     alipayRate: '0.38',
                     note: ''
                 }, {
-                    id: '1',
+                    id: '2',
                     belong: '郑衡周',
                     merchantName: '深圳市坪山新区刘兴汤粉店',
                     merchantForshort: "潮汕汤粉店",
@@ -141,7 +138,7 @@
                     alipayRate: '0.38',
                     note: ''
                 }, {
-                    id: '1',
+                    id: '3',
                     belong: '郑衡周',
                     merchantName: '深圳市坪山新区刘兴汤粉店',
                     merchantForshort: "潮汕汤粉店",
@@ -186,9 +183,21 @@
                     id: '10',
                     name: '王小虎',
                     address: '上海市普陀区金沙江路 1518 弄'
-                }]
+                }],
+
+            }
+        },
+        mounted:{
+            post:function(){
+                //发送 post 请求
+                this.$http.post('http://localhost:8080/index',{name:"菜鸟教程",url:"http://localhost:8080/index"},{emulateJSON:true}).then(function(res){
+                    console.log(res);
+                },function(res){
+                    console.log(res.status);
+                });
             }
         }
+
     }
     var Ctor = Vue.extend(Main)
     new Ctor().$mount('#app')
